@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DialogAnimationComponent } from './components/dialog-animation/dialog-animation.component';
+import { AnimatedDialogComponent } from './components/animated-dialog/animated-dialog.component';
+import { BluredListComponent } from './components/blured-list/blured-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DialogAnimationComponent,
+    AnimatedDialogComponent,
+    BluredListComponent
   ],
   imports: [
     BrowserModule,
